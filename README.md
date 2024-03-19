@@ -23,7 +23,9 @@ So, $= T(\frac {n} {13^i}) + 5^i$ and $i = log n$.
 
 $= T(1) + 5(logn)$
 
-$= \Theta (logn)$
+$= 5(logn)$
+
+So the time complexity is $\Theta (logn)$.
 
 ---------------------------------------------------------------------------
 
@@ -53,7 +55,7 @@ $= 13$ ^ $(log_{13} n) \cdot T(1) + 5 \cdot \sum 13^k$
 
 $= n + 5 \cdot \sum 13^k$
 
-$= \Theta (n)$
+So the time complexity is $\Theta (n)$.
 
 ---------------------------------------------------------------------------
 
@@ -83,4 +85,4 @@ $= 13$ ^ $(log_{13} n) \cdot T(1) \cdot 2(log_{13} n)n$
 
 $= n \cdot 2(log_{13} n)n$
 
-$= \Theta (n log n)$
+So the time complexity is $\Theta (n log n)$.
